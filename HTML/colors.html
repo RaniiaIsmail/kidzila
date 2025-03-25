@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <title>colors</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <h2 class="heading">Learn About Colors</h2>
+    <p>Click the color name to see what it looks like!</p>
+
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'red')">Red</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'blue')">Blue</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'green')">Green</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'yellow')">Yellow</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'orange')">Orange</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'pink')">Pink</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'purple')">Purple</button>
+    <button class="colorbtn" onclick="toggleButtonColor(this, 'brown')">Brown</button>
+
+    <div class="controllers">
+
+        <h3>Colors Quiz</h3>
+        <p>What color is the sky?</p>
+        <button class="buttonn" onclick="checkAnswer('Blue', 'quiz1')">Blue</button>
+        <button class="buttonn" onclick="checkAnswer('Red', 'quiz1')">Red</button>
+        <p id="quiz1"></p>
+    </div>
+
+    <img class="kids" src="../resources/kids.png">
+
+    <script src="../js/colors.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+    <title>shapes</title>
+   <link rel="stylesheet" href="../css/shapes.css">
+</head>
+
+<body>
+
+        <h1 class="heading">Learn About Shapes</h1>
+       
+         <div class="slider">  
+            <div class="slides">
+              <div class="slide active">
+                <img class="simg"src="../resources/square.jpg" alt="">
+                <div class="description">square</div>
+                <div class="note">All sides are equal and of equal length</div>
+              </div>
+              <div class="slide">
+                <img class="simg" src="../resources/rectangle.jpg" alt="rectangle">
+                <div class="description">rectangle</div>
+                <div class="note">It has four sides, and opposite sides are equal</div>
+              </div>
+              <div class="slide">
+                <img class="simg" src="../resources/triangle.jpg" alt="triangle">
+                <div class="description">triangle</div>
+                <div class="note">It has three sides and three angles</div>
+              </div>
+              <div class="slide">
+                <img class="simg"src="../resources/circle.jpg" alt="circle">
+                <div class="description">circle</div>
+                <div class="note">All points inside it are at an equal distance from the center point</div>
+              </div>
+              <div class="slide">
+                <img class="simg"src="../resources/rhombus.jpg" alt="rhombus">
+                <div class="description">rhombus</div>
+                <div class="note">It has four equal sides, and unequal angles</div>
+              </div>
+              <div class="slide">
+                <img class="simg"src="../resources/star.jpg" alt="star">
+                <div class="description">star</div>
+                <div class="note">A shape formed with acute angles</div>
+              </div>
+              <div class="slide">
+                <img class="simg"src="../resources/pentagon.jpg" alt="pentagon">
+                <div class="description">pentagon</div>
+                <div class="note">It has five sides and angles</div>
+              </div>
+              <div class="slide">
+                <img class="simg"src="../resources/hexagon.jpg" alt="hexagon">
+                <div class="description">hexagon</div>
+                <div class="note">It has six sides and angles</div>
+              </div>
+              <div class="slide">
+                <img class="simg" src="../resources/heptagon.jpg" alt="heptagon">
+                <div class="description">heptagon</div>
+                <div class="note">It has seven sides and angles</div>
+              </div>
+              <div class="slide">
+                <img  class="simg"src="../resources/octagon.jpg" alt="octagon">
+                <div class="description">octagon</div>
+                <div class="note">It has eight sides and angles</div>
+              </div>
+            </div>
+            <button  class="buttonnn" id="prev" onclick="changeSlide(-1)">&#10094;</button>  
+            <button  class="buttonnn" id="next" onclick="changeSlide(1)">&#10095;</button>
+          </div> 
+          
+        <h3>Shapes Quiz</h3>
+        <p>Which shape has three sides?</p>
+        <button  class="buttonn"onclick="checkAnswer('Triangle', 'quiz2')">Triangle</button>
+        <button  class="buttonn"onclick="checkAnswer('Circle', 'quiz2')">Circle</button>
+        <p id="quiz2"></p>
+        
+        
+        <script src="../js/shapes.js"></script>
+        <script src="../js/script.js"></script>
+    
+</body>
+
+</html>

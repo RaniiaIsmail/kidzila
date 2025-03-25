@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html dir="ltr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Numbers with Fruits and Vegetables</title>
+    <link rel="stylesheet" href="../css/numbwers.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="heading">Let's Learn Numbers </h1>
+
+        <div class="number-display">1</div>
+        <div class="number-word">One</div>
+
+        <div class="example-section" id="examples"></div>
+
+        <button class="sound-button" onclick="playNumberSound()">🔊 Listen to Pronunciation</button>
+
+        <div class="controls">
+            <button   onclick="nextNumber()">Next</button>
+            <button   onclick="prevNumber()">Previous</button>
+        </div>
+
+        <div class="progress" id="progress"></div>
+    </div>
+
+    <script src="../js/numbers.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
